@@ -7,9 +7,9 @@
 A regular expression engine implemented as a virtual machine and using Pegjs https://pegjs.org/ for parsing.
 
 Somewhat supported syntax:
-- .
-- +
-- *
+- `.`
+- `+`
+- `*`
 - ?
 - {m,n} and {n} counted repetitions
 - [a-z] ranges
