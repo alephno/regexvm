@@ -1,0 +1,49 @@
+{
+  "name": "regexvisualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "grammar-debug": "pegjs --format commonjs --trace src/regex_parser.pegjs",
+    "grammar": "pegjs --format commonjs src/regex_parser.pegjs",
+    "grammar-trace": "pegjs --trace src/regex_parser.pegjs",
+    "build": "webpack --mode production",
+    "start": "node server.js",
+    "test": "mocha test/parsertest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "pegjs": "^0.10.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "expect"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+logs
+
+*.log
+
+node_modules/
+
+.eslintcache
+.eslintrc.js
+notes.md
+
+
+.node_repl_history
+
+.DS_Store
