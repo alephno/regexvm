@@ -1,4 +1,4 @@
-# Regular Expression Engine and Vidualizer
+# Regular Expression Engine and Visualizer
 
 ![AltText](/screenshot.png?raw=true "Regex Visualizer")
 
